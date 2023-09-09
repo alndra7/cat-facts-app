@@ -32,7 +32,7 @@ function SetOfCards() {
         <div className="cards__wrapper">
             <div>
                 <button className="cards__show-like-btn" onClick={handleClick}>
-                    <img src={likeIcon} alt="иконка сердца" />
+                    <img className="cards__like-btn-img" src={likeIcon} alt="иконка сердца" />
                 </button>
             </div>
 

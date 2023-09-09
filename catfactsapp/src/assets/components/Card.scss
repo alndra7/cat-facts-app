@@ -17,8 +17,14 @@
         }
     }
 
+    &__img-wrapper {
+        width: 60%;
+    }
+
     &__btn-container {
         display: flex;
+        justify-content: space-around;
+        width: 60%;
 
     }
 
@@ -27,9 +33,11 @@
         border: none;
         cursor: pointer;
         transition: transform .2s;
+        //min-width: 5px;
+        width: 3vw;
 
         &:hover {
-            transform: scale(1.05);
+            transform: scale(1.5);
         }
     }
 
@@ -38,11 +46,30 @@
         background: transparent;
         cursor: pointer;
         transition: transform .2s;
+        width: 3vw;
 
         &:hover {
-            transform: scale(1.05);
+            transform: scale(1.5);
         }
     }
+}
 
+@media screen and (max-width: 500px) {
+    .card {
 
+        &__like-btn,
+        &__delete-btn {
+            width: 6vw;
+        }
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 750px) {
+    .card {
+
+        &__like-btn,
+        &__delete-btn {
+            width: 4.5vw;
+        }
+    }
 }
