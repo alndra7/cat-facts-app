@@ -12,7 +12,7 @@ function Card(props) {
     const dispatch = useDispatch();
     return (
         <div className="card__container">
-            <div className='card__img-wrapper'>
+            <div className='card__img-container'>
                 <img src={pawIcon} alt="иконка лапы" />
             </div>
 

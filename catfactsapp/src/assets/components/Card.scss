@@ -17,7 +17,7 @@
         }
     }
 
-    &__img-wrapper {
+    &__img-container {
         width: 60%;
     }
 
@@ -33,7 +33,6 @@
         border: none;
         cursor: pointer;
         transition: transform .2s;
-        //min-width: 5px;
         width: 3vw;
 
         &:hover {
@@ -59,6 +58,7 @@
 
         &__like-btn,
         &__delete-btn {
+            min-width: 20px;
             width: 6vw;
         }
     }
