@@ -31,7 +31,7 @@
     }
 }
 
-@media screen and (max-width: 500px) {
+@media (max-width: 500px) {
     .cards {
         &__show-like-btn {
             min-width: 30px;

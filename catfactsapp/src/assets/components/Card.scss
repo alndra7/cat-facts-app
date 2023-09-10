@@ -53,7 +53,7 @@
     }
 }
 
-@media screen and (max-width: 500px) {
+@media (max-width: 500px) {
     .card {
 
         &__like-btn,
@@ -64,7 +64,7 @@
     }
 }
 
-@media screen and (min-width: 500px) and (max-width: 750px) {
+@media (min-width: 501px) and (max-width: 750px) {
     .card {
 
         &__like-btn,
