@@ -16,7 +16,7 @@ function Card(props) {
                 <img src={pawIcon} alt="иконка лапы" />
             </div>
 
-            <div>{props.text}</div>
+            <div className='card__text'>{props.text}</div>
 
             <div className="card__btn-container">
 
